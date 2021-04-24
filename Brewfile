@@ -1,23 +1,24 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+
+cask "dropbox"
+cask "resilio-sync"
+
 brew "mas"
 mas "Xcode", id: 497799835
 mas "Slack", id: 803453959
 
-
 brew "boost"
 brew "cmake"
-brew "cryptopp"
 brew "gmp"
+brew "eigen"
 brew "openssl@1.1"
 brew "gdal"
 brew "gnuplot", args: ["with-aquaterm"]
 brew "go"
 brew "graphviz"
-brew "leveldb"
 brew "llvm"
-brew "node"
 brew "opencv"
 brew "tree"
 brew "docker"
@@ -30,3 +31,7 @@ brew "wget"
 cask "godot"
 cask "google-chrome"
 cask "abyssoft-teleport"
+cask "alfred"
+cask "steam"
+cask "google-japanese-ime"
+cask "zoom"

@@ -5,8 +5,10 @@
 
 # install via brew
 brew bundle --file=./Brewfile
-open /Applications/Google\ Chrome.app
-sudo xattr -dr com.apple.quarantine /Applications/Android\ Studio.app
+
+# set dotfiles
+chmod 755 ./dotfiles/install.sh
+./dotfiles/install.sh
 
 # configure VSCode
 chmod 755 ./vscode/install.sh
@@ -15,7 +17,3 @@ chmod 755 ./vscode/install.sh
 # install xcode
 chmod 755 ./xcode/install.sh
 ./xcode/install.sh
-
-# set dotfiles
-chmod 755 ./dotfiles/install.sh
-./dotfiles/install.sh
